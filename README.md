@@ -6,7 +6,7 @@ Thomas Mock (2022). Tidy Tuesday: A weekly data project aimed at the R ecosystem
 
 ## Gallery
 
-### Week 29: [Technology Adoption](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/2022/Week29)
+### Week 29: [Technology Adoption](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week29)
 
 ![Technology Adoption](https://github.com/imagineazhar/TidyTuesday/blob/main/Week29/tidytuesday_week_29.png)
 

@@ -4,14 +4,16 @@ This repo contains my contributions for [TidyTuesday](https://github.com/rfordat
 
 Thomas Mock (2022). Tidy Tuesday: A weekly data project aimed at the R ecosystem.
 
-### Week 29: [Technology Adoption](https://github.com/imagineazhar/TidyTuesday/tree/main/Week29)
+## Gallery
 
-![](https://github.com/imagineazhar/TidyTuesday/blob/main/Week29/tidytuesday_week_29.png)
+### Week 29: [Technology Adoption](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/2022/Week29)
 
-### Week 28: [European flights](https://github.com/imagineazhar/TidyTuesday/tree/main/Week28)
+![Technology Adoption](https://github.com/imagineazhar/TidyTuesday/blob/main/Week29/tidytuesday_week_29.png)
 
-![](https://github.com/imagineazhar/TidyTuesday/blob/main/Week28/tidytuesday_week_28.png)
+### Week 28: [European flights](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week28)
 
-### Week 27: [San Francisco Rentals](https://github.com/imagineazhar/TidyTuesday/tree/main/Week27)
+![European flights](https://github.com/imagineazhar/TidyTuesday/blob/main/Week28/tidytuesday_week_28.png)
 
-![](https://github.com/imagineazhar/TidyTuesday/blob/main/Week27/tidytuesday_week_27.png)
+### Week 27: [San Francisco Rentals](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week27)
+
+![San Francisco Rentals](https://github.com/imagineazhar/TidyTuesday/blob/main/Week27/tidytuesday_week_27.png)

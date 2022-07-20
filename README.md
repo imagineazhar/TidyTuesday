@@ -12,7 +12,7 @@ Thomas Mock (2022). Tidy Tuesday: A weekly data project aimed at the R ecosystem
 
 ### 2022, Week 28: [European flights](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week28)
 
-![European flights](https://github.com/imagineazhar/TidyTuesday/blob/main/Week28/week28.png)
+![European flights](https://github.com/imagineazhar/TidyTuesday/blob/main/2022/Week28/week28.png)
 
 ### 2022, Week 27: [San Francisco Rentals](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week27)
 

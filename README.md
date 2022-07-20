@@ -1,11 +1,17 @@
 # TidyTuesday
 
-This repo contains data visualizations for [TidyTuesday](https://github.com/rfordatascience/tidytuesday.)
+This repo contains my contributions for [TidyTuesday](https://github.com/rfordatascience/tidytuesday.)
 
 Thomas Mock (2022). Tidy Tuesday: A weekly data project aimed at the R ecosystem.
 
-<!-- ## 2022, Week 28, European flights | [Code](TidyTuesday/2022/2022_w28_European_flights.R)
+### Week 29: [Technology Adoption](https://github.com/imagineazhar/TidyTuesday/tree/main/Week29)
 
-![2022_w28](TidyTuesday/2022/2022_W28_european-flights.png) -->
+![](https://github.com/imagineazhar/TidyTuesday/blob/main/Week29/tidytuesday_week_29.png)
 
+### Week 28: [European flights](https://github.com/imagineazhar/TidyTuesday/tree/main/Week28)
 
+![](https://github.com/imagineazhar/TidyTuesday/blob/main/Week28/tidytuesday_week_28.png)
+
+### Week 27: [San Francisco Rentals](https://github.com/imagineazhar/TidyTuesday/tree/main/Week27)
+
+![](https://github.com/imagineazhar/TidyTuesday/blob/main/Week27/tidytuesday_week_27.png)

@@ -1,8 +1,8 @@
 # TidyTuesday
-This repo contains data visualizations for TidyTuesday.
+
+This repo contains data visualizations for [TidyTuesday](https://github.com/rfordatascience/tidytuesday.)
 
 Thomas Mock (2022). Tidy Tuesday: A weekly data project aimed at the R ecosystem.
-[Link](https://github.com/rfordatascience/tidytuesday.) 
 
 <!-- ## 2022, Week 28, European flights | [Code](TidyTuesday/2022/2022_w28_European_flights.R)
 

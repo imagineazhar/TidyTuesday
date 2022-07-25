@@ -3,6 +3,7 @@ library(showtext)
 library(tidyverse)
 library(janitor)
 library(patchwork)
+library(hrbrthemes)
 
 
 # Set the Stage
@@ -31,34 +32,22 @@ technology <- tech |>
   )
 
 df <- technology|>
-  filter(variable=='steel_production' & iso3c=='PAK' )|>
-  select(iso3c, year, label, value) |> group_by(year)
+  filter(variable %in% c("steel_production", "steel_demand") & iso3c=='PAK' & year>1990)|>
+  select(iso3c, year, label, value) |> group_by(year, label) |>
+  rename(metric=label) |> ungroup()
 
 
 #plot
-ggplot(df, aes(x=year, y=value))+
-  geom_line(color=col, size=1)+
-  annotate("text", x=2017, y=5500,
-           label="Highest ever production \n4966 thousands metric tons ",
-           color=annotation_color,
-           family=font,
-           fontface="bold",
-           size=3,
-           hjust=0.5,
-           vjust=0,
-           lineheight=.8)+
-  geom_curve(
-    aes(x = 2017.5, y = 5450, xend =2017.1 , yend = 5000),
-    curvature = -0.25,
-    arrow = arrow(length = unit(0.015, "npc")),
-    color=annotation_color)+
+ggplot(df, aes(x=year, y=value, color=metric))+
+  geom_line(aes(color=metric),size=1)+
   labs(
-    title = "Steel Production in Pakistan",
-    subtitle = "Steel production in thousand metric tons, 1991-2019",
+    title = "Supply & Demand of Steel in Pakistan",
+    subtitle = "Steel production & demand measured in thousand metric tons,\n 1991-2019",
     caption = "Muhammad Azhar | #TidyTuesday Week 29 | Data: data.nber.org",
-    y= "Steel production in thousand metric tons"
+    y= "thousand metric tons"
   ) +
   coord_cartesian(clip="off") +
+  theme_ipsum()+
   theme(
     panel.grid = element_blank(),
     axis.title.x  = element_blank(),
@@ -71,15 +60,15 @@ ggplot(df, aes(x=year, y=value))+
     plot.subtitle = element_text(size=12, family="Roboto",
                                  color = "grey50",hjust=.5,
                                  lineheight=1, face = "plain",
-                                 margin = margin(0,0,30,0)),
-    plot.caption = element_text(hjust=.5, margin=margin(20,0,0,0), size=8, color=txt_col, face="bold"),
+                                 margin = margin(0,0,20,0)),
+    plot.caption = element_text(hjust=.5, margin=margin(20,0,0,0), size=8,
+                                color=txt_col, face="plain"),
     plot.background = element_rect(color=bg, fill=bg),
     plot.title.position = "panel",
     plot.margin = margin(30,30,30,30),
     legend.position = "bottom",
-    legend.title = element_text(color=txt_col),
+    legend.title = element_blank(),
     legend.justification = "center",
-    legend.title.align=0.5,
   ) 
 
 #Save plot  

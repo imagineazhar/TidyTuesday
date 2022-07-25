@@ -2,20 +2,10 @@ library(tidytuesdayR)
 library(showtext)
 library(tidyverse)
 library(janitor)
-library(patchwork)
+library(glue)
 library(hrbrthemes)
+library(ggtext)
 
-
-# Set the Stage
-font <- "Noto Serif"
-font_add_google(family=font, font)
-font_add_google("Roboto", "roboto")
-showtext_auto(enable = TRUE) 
-theme_set(theme_minimal(base_family = font))
-bg <- "#F0EBE3"
-txt_col <- "black"
-col <- "#0F3D3E"
-annotation_color <- "#B20600"
 
 #read data
 tt_data <- tt_load(2022, week=29)
@@ -36,25 +26,35 @@ df <- technology|>
   select(iso3c, year, label, value) |> group_by(year, label) |>
   rename(metric=label) |> ungroup()
 
+# Set the Stage
+font <- "Noto Serif"
+font_add_google(family=font, font)
+font_add_google("Roboto", "roboto")
+showtext_auto(enable = TRUE) 
+theme_set(theme_minimal(base_family = font))
+bg <- "#F0EBE3"
+txt_col <- "black"
+col <- "#0F3D3E"
 
 #plot
 ggplot(df, aes(x=year, y=value, color=metric))+
   geom_line(aes(color=metric),size=1)+
   labs(
-    title = "Supply & Demand of Steel in Pakistan",
+    title = glue("Steel <span style = 'color: #00bfc4;'> Supply </span>
+                 & <span style = 'color: #f8766d;'>Demand </span> in Pakistan."),
     subtitle = "Steel production & demand measured in thousand metric tons,\n 1991-2019",
     caption = "Muhammad Azhar | #TidyTuesday Week 29 | Data: data.nber.org",
-    y= "thousand metric tons"
+    y= "Thousand metric tons"
   ) +
   coord_cartesian(clip="off") +
-  theme_ipsum()+
+  theme_ipsum_tw()+
   theme(
     panel.grid = element_blank(),
     axis.title.x  = element_blank(),
     axis.title.y  = element_text(color=txt_col, size=10),
     axis.text = element_text(color=txt_col, size=10),
     axis.line = element_line(),
-    plot.title = element_text(size=20, color=txt_col, hjust=.5,lineheight=1,
+    plot.title = element_markdown(size=20, color=txt_col, hjust=.5,lineheight=1,
                               family = font,
                               face="bold", margin=margin(0,0,10,0)),
     plot.subtitle = element_text(size=12, family="Roboto",

@@ -10,6 +10,10 @@ This repo contains my contributions for [TidyTuesday](https://github.com/rfordat
 
 ## Gallery
 
+### 2022, Week 31: [Oregon Spotted Frogs](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week31)
+
+![Oregon Spotted Frogs](https://github.com/imagineazhar/TidyTuesday/blob/main/2022/Week31/week31.png?raw=true)
+
 ### 2022, Week 29: [Technology Adoption](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week29)
 
 ![Technology Adoption](https://github.com/imagineazhar/TidyTuesday/blob/main/2022/Week29/week29.png?raw=true)

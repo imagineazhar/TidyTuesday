@@ -34,9 +34,9 @@ df|> ggplot()+
   scale_fill_met_d(name = "Isfahan1", direction = -1)+
   
   labs(
-    title = "Oregon Frogs prefer Herbaceous Veg",
+    title = "Oregon Frogs prefer Herbaceous Vegetation",
     subtitle = "percentage of frogs spotted",
-    caption = "Muhammad Azhar | #TidyTuesday week 31 | Data: USGS") +
+    caption = "Muhammad Azhar | #TidyTuesday Week 31 | Data: USGS") +
   
   coord_cartesian(clip="off") +
   theme(
@@ -50,7 +50,7 @@ df|> ggplot()+
     plot.subtitle = element_text(size=20, color="grey50", face="bold",
                                  margin=margin(0,0,20,0)),
     plot.caption = element_text(size=14, color="black", face="plain", hjust=0.5,
-                                margin=margin(10,0,0,0)),
+                                margin=margin(20,0,0,0)),
     plot.background = element_rect(color = bg, fill=bg),
     plot.margin = margin(30,30,30,30),
     legend.title = element_blank(),

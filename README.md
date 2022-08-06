@@ -10,6 +10,21 @@
 
 My contributions to the [#TidyTuesday challenge](https://github.com/rfordatascience/tidytuesday), a weekly social data project that focusses on understanding data wrangling/cleaning to make charts/graphs with  `{ggplot2}`, `{tidyr}`, `{dplyr}`, and many more packages. The project was founded in 2018 by [Thomas Mock](https://thomasmock.netlify.com/) and organized by the [R4DS ("`R` for Data Science") online learning community](https://twitter.com/r4dscommunity).
 
+
+<details>
+  <summary>Contributions in chronological order (click to expand)</summary>
+
+<!-- toc -->
+* **Challenges 2022**
+  - 2022/27 [🏠 San Francisco Rentals](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week27)
+  - 2022/28 [✈ European Flights](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week28)
+  - 2022/29 [⚙ Technology Adoptation](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week29)
+  - 2022/31 [🐸 Oregon Spotted Frogs](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week31)
+  
+  <!-- tocstop -->
+
+</details>
+
 ## Gallery
 
 ### 2022, Week 31: [Oregon Spotted Frogs](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week31)

@@ -33,8 +33,6 @@ My contributions to the [#TidyTuesday challenge](https://github.com/rfordatascie
 
 ***
 
-***
-
 ### 2022, Week 29: [Technology Adoption](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week29)
 
 ![Technology Adoption](https://github.com/imagineazhar/TidyTuesday/blob/main/2022/Week29/week29.png?raw=true)

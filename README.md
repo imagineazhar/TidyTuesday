@@ -2,13 +2,13 @@
   &nbsp;#TidyTuesday Contributions&nbsp;
 </h1>
 
-This repo contains my contributions for [TidyTuesday](https://github.com/rfordatascience/tidytuesday.)
-
 <!-- <div align="center">
   <br>
   <a href="https://www.buymeacoffee.com/z3tt" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-1.svg" alt="Buy Me A Coffee" style="height: 50px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
   <br><br>
 </div> -->
+
+My contributions to the [#TidyTuesday challenge](https://github.com/rfordatascience/tidytuesday), a weekly social data project that focusses on understanding data wrangling/cleaning to make charts/graphs with  `{ggplot2}`, `{tidyr}`, `{dplyr}`, and many more packages. The project was founded in 2018 by [Thomas Mock](https://thomasmock.netlify.com/) and organized by the [R4DS ("`R` for Data Science") online learning community](https://twitter.com/r4dscommunity).
 
 ## Gallery
 

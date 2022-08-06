@@ -21,16 +21,15 @@
 
 My contributions to the [#TidyTuesday challenge](https://github.com/rfordatascience/tidytuesday), a weekly social data project that focusses on understanding data wrangling/cleaning to make charts/graphs with  `{ggplot2}`, `{tidyr}`, `{dplyr}`, and many more packages. The project was founded in 2018 by [Thomas Mock](https://thomasmock.netlify.com/) and organized by the [R4DS ("`R` for Data Science") online learning community](https://twitter.com/r4dscommunity).
 
-
 <details>
   <summary>Contributions in chronological order (click to expand)</summary>
 
 <!-- toc -->
 * **Challenges 2022**
-  - 2022/27 [🏠 San Francisco Rentals](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week27)
-  - 2022/28 [✈ European Flights](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week28)
-  - 2022/29 [⚙ Technology Adoptation](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week29)
-  - 2022/31 [🐸 Oregon Spotted Frogs](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week31)
+  * 2022/27 [🏠 San Francisco Rentals](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week27)
+  * 2022/28 [✈ European Flights](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week28)
+  * 2022/29 [⚙ Technology Adoptation](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week29)
+  * 2022/31 [🐸 Oregon Spotted Frogs](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week31)
   
   <!-- tocstop -->
 
@@ -62,8 +61,8 @@ My contributions to the [#TidyTuesday challenge](https://github.com/rfordatascie
 
 ***
 
-
 #### Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
+
 <div style="width:300px; height:200px">
 <img src=https://camo.githubusercontent.com/00f7814990f36f84c5ea74cba887385d8a2f36be/68747470733a2f2f646f63732e636c6f7564706f7373652e636f6d2f696d616765732f63632d62792d6e632d73612e706e67 alt="" height="42">
 </div>

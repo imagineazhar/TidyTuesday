@@ -1,14 +1,13 @@
 library(tidytuesdayR)
 library(tidyverse)
 library(janitor)
-library(MetBrewer)
 library(showtext)
-library(hrbrthemes)
+library(MetBrewer)
 
 # Set the Stage ------------------------------------------------
-font <- "Poppins"
+font <- "Mukta"
 font_add_google(font, font)
-theme_set(theme_ipsum(base_family = font))
+theme_set(theme_minimal(base_family = font))
 showtext_auto(enable = TRUE)
 bg <- "#F0EBE3"
 
@@ -19,43 +18,59 @@ paygap <- tt_data$paygap |> clean_names()
 
 # data wrangling-------------------------------------------------
 
-df <- paygap |> filter(substr(due_date,1,4)=="2022",
-                       employer_size=="20,000 or more") |> na.omit()
+df <- paygap |> filter(substr(due_date,1,4)=="2022")
+#                       employer_size=="20,000 or more")|>
+#   select(employer_size, diff_mean_hourly_percent,diff_mean_bonus_percent)
+
+
 # plot----------------------------------------------------------
 
-p1 <- df|> ggplot()+
-  geom_point(aes(x=female_top_quartile, y=female_lower_quartile, size=3))+
-  scale_x_continuous(expand = c(0,0))+
-  scale_y_continuous(expand = c(0,0))+
-
+df |> ggplot( aes(diff_mean_hourly_percent, fct_rev(employer_size),
+                         color=employer_size))+
+     ggridges::stat_density_ridges(
+       aes(fill = factor(stat(quantile))),
+       geom = "density_ridges_gradient",
+       quantile_lines = TRUE, quantiles = 4, 
+       color = "black", alpha = .8, size = 1
+     ) +
+  scale_fill_met_d(name = "Morgenstern", direction = 1)+
+  scale_x_continuous(expand = c(0,0)) + 
+  scale_y_discrete( expand = c(0,0),
+                       limits=c('Not Provided',
+                                'Less than 250', '250 to 499',
+                                '500 to 999', '1000 to 4999',
+                                '5000 to 19,999','20,000 or more'))+
     labs(
-    title = "UK Gender Pay Gap | 2022",
-    subtitle = " ",
-    caption = "Muhammad Azhar | #TidyTuesday Week 26 | Data: ons.gov.uk") +
+    title = "UK Gender Pay Gap",                
+    subtitle = "Mean % difference between male and female hourly pay.
+(negative = women's mean hourly pay is higher) ",
+    caption = "Muhammad Azhar | #TidyTuesday Week 26 | Data: ONS.gov.uk",
+    x = "Mean % difference hourly pay") +
   
   coord_cartesian(clip="off") +
   theme(
     panel.grid = element_blank(),
-    axis.title.x = element_blank(),
+    axis.title.x = element_text (size=11, color="grey20",
+                                     margin = margin(10,0,0,0) ),
     axis.title.y = element_blank(),
     axis.text.x = element_text(size=11, color="black"),
     axis.text.y = element_text(size=11, color="black"),
-    plot.title = element_text(size=26, face="bold",
+    plot.title = element_text(size=24, face="bold",
                               margin=margin(10,0,10,0)),
-    plot.subtitle = element_text(size=20, color="grey50", face="bold",
-                                 margin=margin(0,0,20,0)),
+    plot.title.position = 'plot',
+    plot.subtitle = element_text(size=16, color="grey50", face="plain",
+                                 margin=margin(0,0,10,0)),
     plot.caption = element_text(size=11, color="black", face="plain", hjust=0.5,
                                 margin=margin(20,0,0,0)),
     plot.background = element_rect(color = bg, fill=bg),
     plot.margin = margin(30,30,30,30),
-    legend.title = element_blank(),
-    legend.text = element_blank()
+    legend.position="none"
   )
 
 # Save plot ---------------------------------------------------------- 
 
 showtext_opts(dpi = 320) 
 
-ggsave("week26.png", height = 7, width = 7, dpi=320,)  
+ggsave("week26.png", height = 7, width = 8, dpi=320)  
 
 showtext_auto(FALSE)

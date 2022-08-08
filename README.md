@@ -26,6 +26,7 @@ My contributions to the [#TidyTuesday challenge](https://github.com/rfordatascie
 
 <!-- toc -->
 * **Challenges 2022**
+  * 2022/26 [💰 UK Gender Pay gap](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week26)
   * 2022/27 [🏠 San Francisco Rentals](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week27)
   * 2022/28 [✈ European Flights](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week28)
   * 2022/29 [⚙ Technology Adoptation](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week29)
@@ -58,6 +59,12 @@ My contributions to the [#TidyTuesday challenge](https://github.com/rfordatascie
 ### 2022, Week 27: [San Francisco Rentals](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week27)
 
 ![San Francisco Rentals](https://github.com/imagineazhar/TidyTuesday/blob/main/2022/Week27/week27.png)
+
+***
+
+### 2022, Week 26: [UK Gender Pay Gap](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week26)
+
+![💰 UK Gender Pay gap](https://github.com/imagineazhar/TidyTuesday/blob/main/2022/Week26/week26.png)
 
 ***
 

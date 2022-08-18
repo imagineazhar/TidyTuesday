@@ -12,15 +12,11 @@ showtext_auto(enable = TRUE)
 bg <- "#F0EBE3"
 
 # read data-----------------------------------------------------
-tt_data <- tt_load(2022, week=26)
+tt_data <- tt_load(2022, week=33)
 paygap <- tt_data$paygap |> clean_names()
 
 
 # data wrangling-------------------------------------------------
-
-df <- paygap |> filter(substr(due_date,1,4)=="2022")
-#                       employer_size=="20,000 or more")|>
-#   select(employer_size, diff_mean_hourly_percent,diff_mean_bonus_percent)
 
 
 # plot----------------------------------------------------------
@@ -77,6 +73,6 @@ df |> ggplot( aes(diff_mean_hourly_percent, fct_rev(employer_size),
 
 showtext_opts(dpi = 320) 
 
-ggsave("week26.png", height = 7, width = 8, dpi=320)  
+ggsave("week_33.png", height = 7, width = 8, dpi=320)  
 
 showtext_auto(FALSE)

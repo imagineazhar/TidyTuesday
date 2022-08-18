@@ -41,5 +41,5 @@ rent_sum|> ggplot(aes(x=price))+
     plot.margin = unit(c(0.5,0.5,0.5,0.5), "cm"))
 
 #Save plot  
-ggsave("2022_W27_SF-rentals.png", 
+ggsave("week_27.png", 
        units = 'in', width = 5, height = 4, dpi = 100)

@@ -77,6 +77,6 @@ df |> ggplot( aes(diff_mean_hourly_percent, fct_rev(employer_size),
 
 showtext_opts(dpi = 320) 
 
-ggsave("week26.png", height = 7, width = 8, dpi=320)  
+ggsave("week_26.png", height = 7, width = 8, dpi=320)  
 
 showtext_auto(FALSE)

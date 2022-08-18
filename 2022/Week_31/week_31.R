@@ -63,6 +63,6 @@ df|> ggplot()+
 
 showtext_opts(dpi = 320) 
 
-ggsave("week31.png", height = 7, width = 7, dpi=320,)  
+ggsave("week_31.png", height = 7, width = 7, dpi=320,)  
 
 showtext_auto(FALSE)

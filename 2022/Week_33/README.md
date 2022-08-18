@@ -1,3 +1,3 @@
-# 2022, Week 26
+# 2022, Week 33
 
-![💰 UK Gender Pay gap](https://github.com/imagineazhar/TidyTuesday/blob/main/2022/Week26/week26.png)
+![💰 Personlaties](https://github.com/imagineazhar/TidyTuesday/blob/main/2022/Week_33/week_33.png)

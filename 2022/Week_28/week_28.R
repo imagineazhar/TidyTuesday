@@ -53,5 +53,5 @@ total |> ggplot(aes(x=yearmonth, y=total_flights, group=1))+
   facet_wrap(~STATE_NAME)
   
 #Save plot  
-ggsave("european-flights.png", 
+ggsave("week_28.png", 
        units = 'in', width = 7, height = 5, dpi = 300)

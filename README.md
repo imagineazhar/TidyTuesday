@@ -31,6 +31,7 @@ My contributions to the [#TidyTuesday challenge](https://github.com/rfordatascie
   * 2022/28 [✈ European Flights](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_28)
   * 2022/29 [⚙ Technology Adoptation](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_29)
   * 2022/31 [🐸 Oregon Spotted Frogs](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_31)
+  * 2022/31 [🧑 Characters Personality](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_33)
   
   <!-- tocstop -->
 

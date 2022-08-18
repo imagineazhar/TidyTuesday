@@ -26,45 +26,49 @@ My contributions to the [#TidyTuesday challenge](https://github.com/rfordatascie
 
 <!-- toc -->
 * **Challenges 2022**
-  * 2022/26 [💰 UK Gender Pay gap](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week26)
-  * 2022/27 [🏠 San Francisco Rentals](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week27)
-  * 2022/28 [✈ European Flights](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week28)
-  * 2022/29 [⚙ Technology Adoptation](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week29)
-  * 2022/31 [🐸 Oregon Spotted Frogs](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week31)
+  * 2022/26 [💰 UK Gender Pay gap](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_26)
+  * 2022/27 [🏠 San Francisco Rentals](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_27)
+  * 2022/28 [✈ European Flights](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_28)
+  * 2022/29 [⚙ Technology Adoptation](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_29)
+  * 2022/31 [🐸 Oregon Spotted Frogs](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_31)
   
   <!-- tocstop -->
 
 </details>
 
 ***
+### 2022, Week 33: [Character Personalities](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_33)
 
-### 2022, Week 31: [Oregon Spotted Frogs](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week31)
+![Personalities](https://github.com/imagineazhar/TidyTuesday/blob/main/2022/Week_33/week_33.png)
 
-![Oregon Spotted Frogs](https://github.com/imagineazhar/TidyTuesday/blob/main/2022/Week31/week31.png?raw=true)
+***
+### 2022, Week 31: [Oregon Spotted Frogs](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_31)
+
+![Oregon Spotted Frogs](https://github.com/imagineazhar/TidyTuesday/blob/main/2022/Week_31/week_31.png)
 
 ***
 
-### 2022, Week 29: [Technology Adoption](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week29)
+### 2022, Week 29: [Technology Adoption](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_29)
 
-![Technology Adoption](https://github.com/imagineazhar/TidyTuesday/blob/main/2022/Week29/week29.png?raw=true)
-
-***
-
-### 2022, Week 28: [European flights](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week28)
-
-![European flights](https://github.com/imagineazhar/TidyTuesday/blob/main/2022/Week28/week28.png)
+![Technology Adoption](https://github.com/imagineazhar/TidyTuesday/blob/main/2022/Week_29/week_29.png)
 
 ***
 
-### 2022, Week 27: [San Francisco Rentals](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week27)
+### 2022, Week 28: [European flights](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_28)
 
-![San Francisco Rentals](https://github.com/imagineazhar/TidyTuesday/blob/main/2022/Week27/week27.png)
+![European flights](https://github.com/imagineazhar/TidyTuesday/blob/main/2022/Week_28/week_28.png)
 
 ***
 
-### 2022, Week 26: [UK Gender Pay Gap](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week26)
+### 2022, Week 27: [San Francisco Rentals](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_27)
 
-![💰 UK Gender Pay gap](https://github.com/imagineazhar/TidyTuesday/blob/main/2022/Week26/week26.png)
+![San Francisco Rentals](https://github.com/imagineazhar/TidyTuesday/blob/main/2022/Week_27/week_27.png)
+
+***
+
+### 2022, Week 26: [UK Gender Pay Gap](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_26)
+
+![💰 UK Gender Pay gap](https://github.com/imagineazhar/TidyTuesday/blob/main/2022/Week_26/week_26.png)
 
 ***
 

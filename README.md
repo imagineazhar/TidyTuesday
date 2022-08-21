@@ -41,7 +41,7 @@ My contributions to the [#TidyTuesday challenge](https://github.com/rfordatascie
 ### 2022, Week 33: [Character Personalities](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_33)
 
 ![Personalities](https://github.com/imagineazhar/TidyTuesday/blob/main/2022/Week_33/week_33.png) 
-![Characters](https://github.com/imagineazhar/TidyTuesday/blob/main/2022/Week_33/characters.png)
+![💰 Friends Personlaties](https://github.com/imagineazhar/TidyTuesday/blob/main/2022/Week_33/Characters.png)
 
 ***
 ### 2022, Week 31: [Oregon Spotted Frogs](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_31)

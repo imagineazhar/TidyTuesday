@@ -32,10 +32,15 @@ My contributions to the [#TidyTuesday challenge](https://github.com/rfordatascie
   * 2022/29 [⚙ Technology Adoptation](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_29)
   * 2022/31 [🐸 Oregon Spotted Frogs](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_31)
   * 2022/33 [🧑 FRIENDS Characters Personality](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_33)
+  * 2022/34 ![💾 Chips](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_34)
   
   <!-- tocstop -->
 
 </details>
+
+### 2022, Week 34: [Chips](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_34)
+
+![💾 Chips](https://github.com/imagineazhar/TidyTuesday/blob/main/2022/Week_34/week_34.png) 
 
 ***
 ### 2022, Week 33: [Character Personalities](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_33)

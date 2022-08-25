@@ -2,6 +2,7 @@ library(tidytuesdayR)
 library(tidyverse)
 library(MetBrewer)
 library(patchwork)
+library(showtext)
 
 # Set the Stage ------------------------------------------------
 

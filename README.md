@@ -33,22 +33,31 @@ My contributions to the [#TidyTuesday challenge](https://github.com/rfordatascie
   * 2022/31 [🐸 Oregon Spotted Frogs](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_31)
   * 2022/33 [🧑 FRIENDS Characters Personality](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_33)
   * 2022/34 [💾 Chips](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_34)
+  * 2022/35 [💵 Pell Grants](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_35)
   
   <!-- tocstop -->
 
 </details>
 
-### 2022, Week 34: [Chips](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_34)
+### 2022, Week 35: [Pell Grants](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_35)
 
-![💾 Chips](https://github.com/imagineazhar/TidyTuesday/blob/main/2022/Week_34/week_34.png) 
+![💵 Pell Grants](https://github.com/imagineazhar/TidyTuesday/blob/main/2022/Week_35/week_35.png)
 
 ***
+
+### 2022, Week 34: [Chips](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_34)
+
+![💾 Chips](https://github.com/imagineazhar/TidyTuesday/blob/main/2022/Week_34/week_34.png)
+
+***
+
 ### 2022, Week 33: [Character Personalities](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_33)
 
-![Personalities](https://github.com/imagineazhar/TidyTuesday/blob/main/2022/Week_33/week_33.png) 
+![Personalities](https://github.com/imagineazhar/TidyTuesday/blob/main/2022/Week_33/week_33.png)
 ![💰 Friends Personlaties](https://github.com/imagineazhar/TidyTuesday/blob/main/2022/Week_33/Characters.png)
 
 ***
+
 ### 2022, Week 31: [Oregon Spotted Frogs](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_31)
 
 ![Oregon Spotted Frogs](https://github.com/imagineazhar/TidyTuesday/blob/main/2022/Week_31/week_31.png)

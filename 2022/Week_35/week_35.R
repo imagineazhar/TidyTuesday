@@ -1,16 +1,17 @@
 library(tidyverse)
 library(showtext)
 library(usmap)
-library(hrbrthemes)
 library(patchwork)
 
 # Set the Stage ------------------------------------------------
 
-font <- "Lora"
+font <- "Ubuntu"
 font_add_google(font, font)
-theme_set(theme_ipsum(base_family = font))
 showtext_auto(enable = TRUE)
+theme_set(theme_minimal(base_family = font))
 bg <- "#F0EBE3"
+txt_col <- 'black'
+nacol <- "grey80"
 
 # read data-----------------------------------------------------
 
@@ -21,75 +22,80 @@ pell <- tt_data$pell
 
 df <- pell |> 
   group_by(STATE, YEAR) |> 
-  summarise(sumAward = sum(AWARD),
-            sumRecipient = sum(RECIPIENT))|>
-  mutate(award_per_recipient = sumAward / sumRecipient )|>
+  summarise(total_award = sum(AWARD),
+            total_recipients = sum(RECIPIENT))|>
+  mutate(award_per_recipient = total_award / total_recipients )|>
   janitor::clean_names()|> ungroup()
 
 df2000 <- df |> filter(year==2000)
 df2017 <- df |> filter(year==2017)
 
 # plot 1 ----------------------------------------------------------
+color_low <- "#FFFFFF"
+color_high <- "#3a0ca3"
 
 p1 <- plot_usmap(data = df2000, values = "award_per_recipient")+
-  scale_fill_continuous(low = "#F5F5F5", high = "#210cae",limits=c(1e3,5000),
-                        name="Total Pell Grant Funding (Million USD$)",
-                        labels = scales::dollar_format())+
+  scale_fill_continuous(low = color_low, high = color_high, limits=c(1000,6000),
+                        name="Award per Recipient ($)",
+                        guide=guide_legend(
+                          keyheight = unit(3, units = "mm"),
+                          keywidth=unit(12, units = "mm"), 
+                          label.position = "bottom",
+                          title.position = 'top', title.hjust=0.5, nrow=1))+
   labs(title = "2000")+
   theme(
     panel.grid = element_blank(),
     axis.title  = element_blank(),
     axis.text = element_blank(),
-    plot.title = element_text(size=20, color='black', hjust=.5, face="bold", margin=margin(0,0,30,0)),
+    plot.title = element_text(size=20, color=txt_col, hjust=.5,
+                              face="bold", margin=margin(0,0,30,0)),
     plot.background = element_rect(color=bg, fill=bg),
-    plot.title.position = "panel",
     plot.margin = margin(0,0,0,0),
-    legend.position = "bottom"
-    )+ 
-  guides(colour = guide_legend(title.position = "top"))
-  
+    legend.title = element_text(size=14),
+    legend.text = element_text(size=10))
 p1
-
-
 # plot 2 ----------------------------------------
 
 p2 <-  plot_usmap(data = df2017, values = "award_per_recipient")+
-  scale_fill_continuous(low = "#F5F5F5", high = "#210cae",limits=c(1e3,5000),
-                        name="Total Pell Grant Funding (Million USD$)",
-                        labels = scales::dollar_format())+
+  scale_fill_continuous(low = color_low, high = color_high, limits=c(1000,6000),
+                        name="Award per Recipient ($)",
+                        guide=guide_legend(
+                          keyheight = unit(3, units = "mm"),
+                          keywidth=unit(12, units = "mm"), 
+                          label.position = "bottom",
+                          title.position = 'top', title.hjust=0.5, nrow=1))+
   labs(title = "2017")+
   theme(
     panel.grid = element_blank(),
     axis.title  = element_blank(),
     axis.text = element_blank(),
-    plot.title = element_text(size=20, color='black', hjust=.5, face="bold", margin=margin(0,0,30,0)),
+    plot.title = element_text(size=20, color=txt_col, hjust=.5,
+                              face="bold", margin=margin(0,0,30,0)),
     plot.background = element_rect(color=bg, fill=bg),
-    plot.title.position = "panel",
     plot.margin = margin(0,0,0,0),
-    legend.position = "bottom"
-  )+ 
-  guides(colour = guide_legend(title.position = "top"))
-
-p2
+    legend.title = element_text(size=14),
+    legend.text = element_text(size=10))
 
 # PATCHWORK ----------------------------------------------------------
 
-(p1+ p2) +
-  plot_annotation(
-  title = 'Pell Grants',
+p1 + p2 + plot_annotation(
+  title = 'PELL GRANTS',
+  subtitle = 'The amount awarded to each recipient more than doubled.',
   caption = "Muhammad Azhar | #TidyTuesday Week 35 | Data: U.S. Department of Education",
-  theme = theme(
-    plot.title = element_text(size=34, face="bold", hjust=.5,
-                              margin=margin(0,0,30,0)),
-    plot.subtitle = element_text(size=16, face="bold",color = "grey40"),
-    plot.caption = element_text(hjust=.5, margin=margin(20,0,0,0),
-                                size=12, face="bold"),
-    plot.title.position = "plot",
-    plot.margin = margin(30,30,30,30),
-    plot.background = element_rect(color=bg, fill=bg),
-    legend.position = "bottom")
-  ) + plot_layout(guides = "collect")
-
+) + plot_layout(guides = "collect") & 
+  theme(legend.position = 'bottom',
+        legend.background = element_rect(color = bg, fill=bg),
+        legend.justification = "center",
+        plot.title = element_text(size=34, color=txt_col,lineheight=1,
+                                  hjust=0.5,face="bold",
+                                  margin=margin(10,0,10,0)),
+        plot.subtitle = element_text(size=20, color="grey50", face='bold',
+                                     hjust=0.5, margin=margin(0,0,15,0)),
+        plot.caption = element_text(hjust=.5, margin=margin(0,0,0,0),
+                                    size=10, color=txt_col, face="bold"),
+        plot.margin = margin(20,30,20,30),
+        plot.background = element_rect(color=bg, fill=bg)
+  )
 
 
 # Save plot ---------------------------------------------------------- 

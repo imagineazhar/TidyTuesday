@@ -11,7 +11,8 @@ showtext_auto(enable = TRUE)
 theme_set(theme_minimal(base_family = font))
 bg <- "#F0EBE3"
 txt_col <- 'black'
-nacol <- "grey80"
+color_low <- "#FFFFFF"
+color_high <- "#3a0ca3"
 
 # read data-----------------------------------------------------
 
@@ -31,8 +32,6 @@ df2000 <- df |> filter(year==2000)
 df2017 <- df |> filter(year==2017)
 
 # plot 1 ----------------------------------------------------------
-color_low <- "#FFFFFF"
-color_high <- "#3a0ca3"
 
 p1 <- plot_usmap(data = df2000, values = "award_per_recipient")+
   scale_fill_continuous(low = color_low, high = color_high, limits=c(1000,6000),
@@ -93,7 +92,7 @@ p1 + p2 + plot_annotation(
                                      hjust=0.5, margin=margin(0,0,15,0)),
         plot.caption = element_text(hjust=.5, margin=margin(0,0,0,0),
                                     size=10, color=txt_col, face="bold"),
-        plot.margin = margin(20,30,20,30),
+        plot.margin = margin(20,20,20,20),
         plot.background = element_rect(color=bg, fill=bg)
   )
 

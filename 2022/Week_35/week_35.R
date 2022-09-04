@@ -91,7 +91,7 @@ p1 + p2 + plot_annotation(
         plot.subtitle = element_text(size=20, color="grey50", face='bold',
                                      hjust=0.5, margin=margin(0,0,15,0)),
         plot.caption = element_text(hjust=.5, margin=margin(0,0,0,0),
-                                    size=10, color=txt_col, face="bold"),
+                                    size=12, color=txt_col, face="bold"),
         plot.margin = margin(20,20,20,20),
         plot.background = element_rect(color=bg, fill=bg)
   )

@@ -15,10 +15,6 @@ txt_col <- 'black'
 
 # read data-----------------------------------------------------
 
-#colours <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-09-06/colors.csv.gz')
-#inventory_parts <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-09-06/inventory_parts.csv.gz')
-#inventories <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-09-06/inventories.csv.gz')
-#inventory_sets <-  readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-09-06/inventory_sets.csv.gz')
 sets <-  readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-09-06/sets.csv.gz')
 themes <-  readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-09-06/themes.csv.gz')
 
@@ -30,15 +26,16 @@ df <- sets |>
               select(id, theme_name=name),
             by=c(theme_id="id"))|>
   group_by(name, year, theme_name)|>
-  summarise(n_sets=n())
-
+  summarise(n_sets=n(), num_parts)
 
 # plot ----------------------------------------------------------
+
 df |> ggplot(aes(year, n_sets, fill= 'orange' ))+
   geom_col()+
   labs(
-    title = "The Number of LEGO sets over the years.",
-    caption = "Visualization: Muhammad Azhar | Data:LEGO database",
+    title = 'LEGO SETS',
+    subtitle = "The number of sets is increasing.",
+    caption = "Muhammad Azhar | #TidyTuesday Week36 | Data:LEGO database",
     y = "# of LEGO sets",
     x = " "
     )+
@@ -46,15 +43,15 @@ df |> ggplot(aes(year, n_sets, fill= 'orange' ))+
     axis.title.x = element_blank(),
     axis.title.y = element_text(hjust = 0.5),
     plot.title = element_text(size=20, color=txt_col,
+                              face="bold", margin=margin(0,0,10,0)),
+    plot.subtitle =  element_text(size=14, color='grey60',
                               face="bold", margin=margin(0,0,30,0)),
+    
     plot.caption = element_text(hjust=.5, margin=margin(20,0,0,0),
-                                size=10, color=txt_col, face="plain"),
+                                size=10, color='grey20', face="plain"),
     plot.background = element_rect(color=bg, fill=bg),
     plot.margin = margin(30,30,30,30),
     legend.position = 'hidden')
-
-
-
 
 # Save plot ---------------------------------------------------------- 
 

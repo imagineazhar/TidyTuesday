@@ -35,15 +35,23 @@ My contributions to the [#TidyTuesday challenge](https://github.com/rfordatascie
   * 2022/34 [💾 Chips](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_34)
   * 2022/35 [💵 Pell Grants](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_35)
   * 2022/36 [🧱 LEGOs](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_36)
+  * 2022/37 [🦶 Bigfoot](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_37)
   
   <!-- tocstop -->
 
 </details>
+
+***
+
+### 2022, Week 37: [🦶 Bigfoot](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_37)
+
+![🦶 Bigfoot](https://github.com/imagineazhar/TidyTuesday/blob/main/2022/Week_37/week_37.png)
+
 ***
 
 ### 2022, Week 36: [LEGOS](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_36)
 
-![LEGOs](https://github.com/imagineazhar/TidyTuesday/blob/main/2022/Week_36/week_36.png)
+![🧱 LEGOs](https://github.com/imagineazhar/TidyTuesday/blob/main/2022/Week_36/week_36.png)
 
 ***
 

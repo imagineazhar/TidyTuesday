@@ -1,21 +1,18 @@
 library(tidyverse)
 library(tidytuesdayR)
 library(showtext)
-library(hrbrthemes)
-library(patchwork)
+library(maps)
 library(lubridate)
 library(ggtext)
 
 # Set the Stage ------------------------------------------------
 
-font <- "Dosis"
-font_add_google(font, font)
-showtext_auto(enable = TRUE)
-theme_set(theme_ipsum(base_family = font))
-bg <- "#F0EBE3"
+font <- "Mukta"
+font_add_google(family=font, font,db_cache = FALSE)
+showtext_auto(enable = TRUE) 
+theme_set(theme_minimal(base_family = font))
+bg <-  "#F0EBE3"
 txt_col <- "black"
-
-
 
 # read data-----------------------------------------------------
 
@@ -26,37 +23,40 @@ hydro <- tt$HydroWASTE_v10
 
 df <- hydro |>
   filter(CNTRY_ISO == "PAK") |>
-  select(WASTE_ID, LAT_WWTP, LON_WWTP, LAT_OUT, LON_OUT, POP_SERVED, WASTE_DIS,
-         HYRIV_ID, RIVER_DIS)
+  select(WASTE_ID, LAT_WWTP, LON_WWTP, LAT_OUT, LON_OUT, POP_SERVED, WASTE_DIS)
 
+
+map <- as_tibble(map_data("world")) |>
+  filter(region =="Pakistan")
 
 # plot  ----------------------------------------------------------
 
-p1 <- df|> count(year)|> ggplot(aes(x=year, y=n))+
-  geom_line(size=1.2, color='#636175') +
-  geom_point(size=1.3, color='#636175')+
-  coord_cartesian(clip="off")+
-  labs(
-    
-  )+
+map %>% 
+  ggplot() + 
+  geom_polygon(aes(x=long, y=lat, group=group),fill="#576E68", color="black", size=.1) +
+  geom_point(data=df, aes(x=LON_WWTP, y=LAT_WWTP), color = "#e34a33", size=2) +
+  coord_map(projection = "mercator", xlim=c(60,80)) +
+  labs( title="Wastewater Plants in Pakistan.",
+        caption = "Muhammad Azhar | #TidyTuesday Week 38 | Data: Macedo et al (2022)")+
   theme(
-    axis.title.x = element_blank(),
-    axis.title.y = element_text(hjust = 0.5),
-    plot.title = element_text(size=20, color=txt_col,
-                              face="bold", margin=margin(0,0,10,0)),
-    plot.subtitle =  element_text(size=12, color='grey50',
+    panel.grid = element_blank(),
+    axis.title  = element_blank(),
+    axis.text = element_blank(),
+    plot.title = element_text(size=40, color=txt_col, hjust=0.5,lineheight=1,
                               face="bold", margin=margin(0,0,30,0)),
-    
-    plot.caption = element_text(hjust=.5, margin=margin(20,0,0,0),
-                                size=10, color='grey20', face="plain"),
+    plot.caption = element_text(size=12, color=txt_col,face = "plain",
+                                    hjust=0.5, margin=margin(0,0,0,0),
+                                    lineheight = 1.4),
     plot.background = element_rect(color=bg, fill=bg),
-    plot.title.position = "plot",
-    legend.position = 'hidden')
+    plot.title.position = "panel",
+    plot.margin = margin(20,20,20,20),
+    legend.position ="bottom"
+  )
 
 # Save plot ---------------------------------------------------------- 
 
 showtext_opts(dpi = 320) 
 
-ggsave("week_37.png", height = 8, width = 10, dpi=320)  
+ggsave("week_38.png", height = 10, width = 10, dpi=320)  
 
 showtext_auto(FALSE)

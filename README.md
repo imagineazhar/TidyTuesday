@@ -37,10 +37,17 @@ My contributions to the [#TidyTuesday challenge](https://github.com/rfordatascie
   * 2022/36 [🧱 LEGOs](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_36)
   * 2022/37 [🦶 Bigfoot](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_37)
   * 2022/38 [💧 Waste Water Plants](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_38)
+  * 2022/39 [🎭 Artists in USA](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_39)
   
   <!-- tocstop -->
 
 </details>
+
+***
+
+### 2022, Week 39: [🎭 Artists in USA](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_39)
+
+![🎭 Artists in USA](https://github.com/imagineazhar/TidyTuesday/blob/main/2022/Week_39/week_39.png)
 
 ***
 
@@ -83,19 +90,19 @@ My contributions to the [#TidyTuesday challenge](https://github.com/rfordatascie
 
 ### 2022, Week 31: [Oregon Spotted Frogs](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_31)
 
-![Oregon Spotted Frogs](https://github.com/imagineazhar/TidyTuesday/blob/main/2022/Week_31/week_31.png)
+![🐸 Oregon Spotted Frogs](https://github.com/imagineazhar/TidyTuesday/blob/main/2022/Week_31/week_31.png)
 
 ***
 
 ### 2022, Week 29: [Technology Adoption](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_29)
 
-![Technology Adoption](https://github.com/imagineazhar/TidyTuesday/blob/main/2022/Week_29/week_29.png)
+![👩‍💻 Technology Adoption](https://github.com/imagineazhar/TidyTuesday/blob/main/2022/Week_29/week_29.png)
 
 ***
 
 ### 2022, Week 28: [European flights](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_28)
 
-![European flights](https://github.com/imagineazhar/TidyTuesday/blob/main/2022/Week_28/week_28.png)
+![✈ European flights](https://github.com/imagineazhar/TidyTuesday/blob/main/2022/Week_28/week_28.png)
 
 ***
 

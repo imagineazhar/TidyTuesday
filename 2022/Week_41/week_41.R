@@ -33,7 +33,7 @@ df <- df |>
 
 # Text ----------------------
 
-title_text <- "Yarn Threads"
+title_text <- "Spooky Threads"
 caption_text <- "Muhammad Azhar | #TidyTuesday Week41 | Data: Ravelry.com"
 
 
@@ -47,7 +47,6 @@ df |> ggplot(aes(x=average_count, y=average_rating, colour=yarn_weight_name))+
   coord_polar()+
   
   labs(title = title_text,
-       subtitle = subtitle_text,
        caption = caption_text,
        x = " ",
        y = " ")+

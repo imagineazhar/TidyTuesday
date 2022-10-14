@@ -1,3 +1,3 @@
 # 2022, Week 39
 
-![🎭 Artists in USA](week_41.png)
+![🧵 Yarn Threads](week_41.png)

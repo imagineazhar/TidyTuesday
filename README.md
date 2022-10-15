@@ -38,7 +38,7 @@ My contributions to the [#TidyTuesday challenge](https://github.com/rfordatascie
   * 2022/37 [🦶 Bigfoot](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_37)
   * 2022/38 [💧 Waste Water Plants](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_38)
   * 2022/39 [🎭 Artists in USA](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_39)
-  * 2022/41 [🧵 Yarn Threads](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_341)
+  * 2022/41 [🧵 Spooky Threads](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_341)
   
   <!-- tocstop -->
 
@@ -46,9 +46,9 @@ My contributions to the [#TidyTuesday challenge](https://github.com/rfordatascie
 
 ***
 
-### 2022, Week 41: [🧵 Yarn Threads](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_41)
+### 2022, Week 41: [🧵 Spooky Threads](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_41)
 
-![🧵 Yarn Threads](https://github.com/imagineazhar/TidyTuesday/blob/main/2022/Week_41/week_41.png)
+![🧵 Spooky Threads](https://github.com/imagineazhar/TidyTuesday/blob/main/2022/Week_41/week_41.png)
 
 ***
 

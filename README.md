@@ -48,7 +48,7 @@ My contributions to the [#TidyTuesday challenge](https://github.com/rfordatascie
 
 ***
 
-### 2022, Week 42: [👽 STranger Things](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_42)
+### 2022, Week 42: [👽 Stranger Things](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_42)
 
 ![👽 STranger Things](https://github.com/imagineazhar/TidyTuesday/blob/main/2022/Week_42/week_42.png)
 

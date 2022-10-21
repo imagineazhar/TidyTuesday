@@ -3,15 +3,6 @@ library(tidytuesdayR)
 library(showtext)
 library(MetBrewer)
 
-# Set the Stage ------------------------------------------------
-
-font <- "Satisfy"
-font_add_google(family=font, font,db_cache = FALSE)
-showtext_auto(enable = TRUE) 
-theme_set(theme_void(base_family = font))
-bg <-  "#F0EBE3"
-txt_col <- "black"
-
 # read data-----------------------------------------------------
 
 tt <- tt_load(2022, week=42)
@@ -21,6 +12,22 @@ all_dialogue <- tt$stranger_things_all_dialogue
 
 # data wrangling-------------------------------------------------
 
+
+# Typography ------------------------------------------------
+
+font_add_google("Vollkorn", "title_font")
+font_add_google("Raleway", "body_font")
+showtext_auto()
+
+title_font <- "title_font"
+body_font <- "body_font"
+
+# Set theme ------------------------------------------------
+
+showtext_auto(enable = TRUE) 
+theme_set(theme_void(base_family = font))
+bg <-  "#F0EBE3"
+txt_col <- "black"
 
 # Text ----------------------
 

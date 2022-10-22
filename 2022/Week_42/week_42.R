@@ -11,7 +11,6 @@ library(tidygraph)
 
 tt <- tt_load(2022, week=42)
 #readme(tt)
-episodes <- tt$episodes
 all_dialogue <- tt$stranger_things_all_dialogue
 
 # data wrangling-------------------------------------------------
@@ -138,7 +137,7 @@ network<- graph_bigram|>
     # Subtitle
     plot.subtitle = element_textbox(family=body_font,
                                     face = "plain",
-                                    width = unit(35, "lines"),
+                                    width = unit(32, "lines"),
                                     size = 14,
                                     lineheight = 1,
                                     margin = margin(0,0,10,0)),
@@ -148,7 +147,7 @@ network<- graph_bigram|>
                                 size=12, 
                                 color=txt_col,
                                 hjust=.5,
-                                margin=margin(10,0,0,0)),
+                                margin=margin(20,0,0,0)),
     
     plot.background = element_rect(color=bg, fill=bg),
     plot.margin = margin(30,30,30,30)
@@ -160,5 +159,5 @@ network
 
 showtext_opts(dpi = 320) 
 ggsave("week_42.png", height = 10,
-       width = 10, dpi=320)  
+       width = 8, dpi=320)  
 showtext_auto(FALSE)

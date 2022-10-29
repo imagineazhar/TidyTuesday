@@ -40,11 +40,16 @@ My contributions to the [#TidyTuesday challenge](https://github.com/rfordatascie
   * 2022/39 [🎭 Artists in USA](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_39)
   * 2022/41 [🧵 Spooky Threads](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_41)
   * 2022/42 [👽 Stranger Things](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_42)
+  * 2022/43 [👩‍🍳 The Great British Bake Off](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_43)
 
-  
   <!-- tocstop -->
 
 </details>
+***
+
+### 2022, Week 43: [👩‍🍳 The Great British Bake Off](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_43)
+
+![👩‍🍳 GBBO](https://github.com/imagineazhar/TidyTuesday/blob/main/2022/Week_43/week_43.png)
 
 ***
 

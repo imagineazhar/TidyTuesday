@@ -48,7 +48,7 @@ My contributions to the [#TidyTuesday challenge](https://github.com/rfordatascie
   <!-- tocstop -->
 
 </details>
-***
+
 ### 2023, Week 03: [🎨 Art History](https://github.com/imagineazhar/TidyTuesday/tree/main/2023/week-03)
 
 ![🎨 Art History](https://github.com/imagineazhar/TidyTuesday/blob/main/2023/week-03/week-03.png)

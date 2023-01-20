@@ -25,6 +25,11 @@ My contributions to the [#TidyTuesday challenge](https://github.com/rfordatascie
   <summary>Contributions in chronological order (click to expand)</summary>
 
 <!-- toc -->
+* **Challenges 2023**
+  * 2023/03 [🎨 Art History](https://github.com/imagineazhar/TidyTuesday/tree/main/2023/Week-03)
+<!-- tocstop -->
+
+<!-- toc -->
 * **Challenges 2022**
   * 2022/26 [💰 UK Gender Pay gap](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_26)
   * 2022/27 [🏠 San Francisco Rentals](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_27)
@@ -40,7 +45,6 @@ My contributions to the [#TidyTuesday challenge](https://github.com/rfordatascie
   * 2022/39 [🎭 Artists in USA](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_39)
   * 2022/41 [🧵 Spooky Threads](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_41)
   * 2022/42 [👽 Stranger Things](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_42)
-
   <!-- tocstop -->
 
 </details>

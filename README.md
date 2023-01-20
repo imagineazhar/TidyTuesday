@@ -49,6 +49,11 @@ My contributions to the [#TidyTuesday challenge](https://github.com/rfordatascie
 
 </details>
 ***
+### 2023, Week 03: [🎨 Art History](https://github.com/imagineazhar/TidyTuesday/tree/main/2023/week-03)
+
+![🎨 Art History](https://github.com/imagineazhar/TidyTuesday/blob/main/2023/week-03/week-03.png)
+
+***
 
 ### 2022, Week 42: [👽 Stranger Things](https://github.com/imagineazhar/TidyTuesday/tree/main/2022/Week_42)
 

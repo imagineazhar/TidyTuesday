@@ -1,6 +1,5 @@
 library(tidyverse)
 library(tidytuesdayR)
-library(waffle)
 library(ggtext)
 library(MetBrewer)
 library(showtext)

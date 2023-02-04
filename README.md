@@ -27,7 +27,6 @@ My contributions to the [#TidyTuesday challenge](https://github.com/rfordatascie
 <!-- toc -->
 * **Challenges 2023**
   * 2023/03 [🎨 Art History](https://github.com/imagineazhar/TidyTuesday/tree/main/2023/Week-03)
-  * 2023/05 [😻 UK Cats](https://github.com/imagineazhar/TidyTuesday/tree/main/2023/Week-05)
 <!-- tocstop -->
 
 <!-- toc -->

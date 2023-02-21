@@ -27,6 +27,7 @@ My contributions to the [#TidyTuesday challenge](https://github.com/rfordatascie
 <!-- toc -->
 * **Challenges 2023**
   * 2023/03 [🎨 Art History](https://github.com/imagineazhar/TidyTuesday/tree/main/2023/Week-03)
+  * 2023/08 [🎨 Bob Ross](https://github.com/imagineazhar/TidyTuesday/tree/main/2023/Week-08)
 <!-- tocstop -->
 
 <!-- toc -->
@@ -48,6 +49,12 @@ My contributions to the [#TidyTuesday challenge](https://github.com/rfordatascie
   <!-- tocstop -->
 
 </details>
+
+### 2023, Week 08: [🎨 Art History](https://github.com/imagineazhar/TidyTuesday/tree/main/2023/Week-08)
+
+![🎨 Bob Ross](https://github.com/imagineazhar/TidyTuesday/blob/main/2023/Week-08/week-08.png)
+
+***
 
 ### 2023, Week 03: [🎨 Art History](https://github.com/imagineazhar/TidyTuesday/tree/main/2023/Week-03)
 

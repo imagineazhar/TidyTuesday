@@ -56,7 +56,7 @@ My contributions to the [#TidyTuesday challenge](https://github.com/rfordatascie
 
 ***
 
-### 2023, Week 08: [🎨 Bob Ross]](https://github.com/imagineazhar/TidyTuesday/tree/main/2023/Week-08)
+### 2023, Week 08: [🎨 Bob Ross](https://github.com/imagineazhar/TidyTuesday/tree/main/2023/Week-08)
 
 ![🎨 Bob Ross](https://github.com/imagineazhar/TidyTuesday/blob/main/2023/Week-08/week-08.png)
 

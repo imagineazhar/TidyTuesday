@@ -50,7 +50,13 @@ My contributions to the [#TidyTuesday challenge](https://github.com/rfordatascie
 
 </details>
 
-### 2023, Week 08: [🎨 Art History](https://github.com/imagineazhar/TidyTuesday/tree/main/2023/Week-08)
+### 2023, Week 09: [🌍 African Languages](https://github.com/imagineazhar/TidyTuesday/tree/main/2023/Week-09)
+
+![🌍 African Languages](https://github.com/imagineazhar/TidyTuesday/blob/main/2023/Week-09/week-09.png)
+
+***
+
+### 2023, Week 08: [🎨 Bob Ross]](https://github.com/imagineazhar/TidyTuesday/tree/main/2023/Week-08)
 
 ![🎨 Bob Ross](https://github.com/imagineazhar/TidyTuesday/blob/main/2023/Week-08/week-08.png)
 

@@ -42,16 +42,9 @@ caption_text <- "Created by: Muhammad Azhar         Twitter: @imagineazhar"
 df |> ggplot(aes(x=as.factor(episode), y=as.integer(num_colors),))+
   geom_bar(stat="identity", fill='#7286D3', width = 0.8)+
   geom_text(aes(label = num_colors), vjust = 1.5, colour = "black")+
-  facet_wrap(~ season, labeller = labeller(season=c(
-    '1'='season 1','2'='season 2','3'='season 3', '4'='season 4',
-    '5'='season 5', '6'='season 6', '7'='season 7', '8'='season 8',
-    '9'='season 9', '10'='season 10', '11'='season 11', '12'='season 12',
-    '13'='season 13', '14'='season 14', '15'='season 15', '16'='season 16',
-    '17'='season 17', '18'='season 18', '19'='season 19', '20'='season 20',
-    '21'='season 21','22'='season 22', '23'='season 23', '24'='season 24',
-    '25'='season 25','26'='season 26','27'='season 27','28'='season 28',
-    '29'='season 29', '30'='season 30', '31'='season 31')),
-             scales = 'free', ncol = 4)+
+  facet_wrap(vars(season), 
+             ncol = 4,
+             labeller = labeller(season = function(x) {ifelse(x >= 1, paste("Season", x), " ")}))+
   scale_x_discrete()+
   scale_y_continuous()+
   labs(title = title_text,

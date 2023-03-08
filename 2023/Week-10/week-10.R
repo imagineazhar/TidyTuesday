@@ -64,7 +64,7 @@ p1 <- ggplot(sf_oz) +
   geom_point(data = df_map, aes(x=decimalLongitude, y=decimalLatitude),
              color='#b40059', size=1.5, alpha=0.8)+
   facet_wrap(~factor(thresh, levels = c("Before 2020", "2020 to 2022", "As of 2023")))+
-  labs(title = "Where <b style='color:#b40059'>Numbats</b> are found?",
+  labs(title = "Where are <b style='color:#b40059'>Numbats</b> found?",
        subtitle = 'Numbats were widely distributed across Southern Australia, from Western Australia to New South Wales. The species has survived only in two small patches of land in the Western Australia.',
        caption = "Graphic: Muhammad Azhar | Twitter: @imagineazhar | Data: Atlas of Living Australia")+
   theme(

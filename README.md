@@ -30,7 +30,7 @@ My contributions to the [#TidyTuesday challenge](https://github.com/rfordatascie
   * 2023/08 [🎨 Bob Ross](https://github.com/imagineazhar/TidyTuesday/tree/main/2023/Week-08)
   * 2023/09 [🌍 African Languages](https://github.com/imagineazhar/TidyTuesday/tree/main/2023/Week-09)
   * 2023/10 [🐾 Numbats in Australia](https://github.com/imagineazhar/TidyTuesday/tree/main/2023/Week-10)
-  * 2023/10 [😡 ROY KENT F**K](https://github.com/imagineazhar/TidyTuesday/tree/main/2023/Week-39)
+  * 2023/39 [😡 ROY KENT F**K](https://github.com/imagineazhar/TidyTuesday/tree/main/2023/Week-39)
   * 2023/48 [🥼 Doctor Who!](https://github.com/imagineazhar/TidyTuesday/tree/main/2023/Week-48)
 
 <!-- tocstop -->

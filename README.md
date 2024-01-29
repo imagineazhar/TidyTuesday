@@ -62,7 +62,6 @@ My contributions to the [#TidyTuesday challenge](https://github.com/rfordatascie
 
 </details>
 
-## 2023 Enteries
 
 ### 2023, Week 48: [🥼 Doctor Who!](https://github.com/imagineazhar/TidyTuesday/tree/main/2023/Week-48)
 

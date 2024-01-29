@@ -25,6 +25,13 @@ My contributions to the [#TidyTuesday challenge](https://github.com/rfordatascie
   <summary>Contributions in chronological order (click to expand)</summary>
 
 <!-- toc -->
+
+* **Challenges 2024**
+  * Week 04 [](https://github.com/imagineazhar/TidyTuesday/tree/main/2024/Week-04)
+  
+<!-- tocstop -->
+
+<!-- toc -->
 * **Challenges 2023**
   * 2023/03 [🎨 Art History](https://github.com/imagineazhar/TidyTuesday/tree/main/2023/Week-03)
   * 2023/08 [🎨 Bob Ross](https://github.com/imagineazhar/TidyTuesday/tree/main/2023/Week-08)
@@ -55,6 +62,7 @@ My contributions to the [#TidyTuesday challenge](https://github.com/rfordatascie
 
 </details>
 
+## 2023 Enteries
 
 ### 2023, Week 48: [🥼 Doctor Who!](https://github.com/imagineazhar/TidyTuesday/tree/main/2023/Week-48)
 

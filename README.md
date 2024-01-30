@@ -62,6 +62,9 @@ My contributions to the [#TidyTuesday challenge](https://github.com/rfordatascie
 
 </details>
 
+### 2024, Week 48: [🎓 Education](https://github.com/imagineazhar/TidyTuesday/tree/main/2024/Week-04)
+
+![🎓 Education](https://github.com/imagineazhar/TidyTuesday/blob/main/2024/Week-04/week-04.png)
 ## 2023 Enteries
 
 ### 2023, Week 48: [🥼 Doctor Who!](https://github.com/imagineazhar/TidyTuesday/tree/main/2023/Week-48)

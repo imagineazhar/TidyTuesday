@@ -28,6 +28,7 @@ My contributions to the [#TidyTuesday challenge](https://github.com/rfordatascie
 
 * **Challenges 2024**
   * Week 04 [🎓 UK Education](https://github.com/imagineazhar/TidyTuesday/tree/main/2024/week04)
+  * Week 08 [🤑 ISC Grants](https://github.com/imagineazhar/TidyTuesday/tree/main/2024/2024-02-24)
   
 <!-- tocstop -->
 
@@ -61,6 +62,10 @@ My contributions to the [#TidyTuesday challenge](https://github.com/rfordatascie
   <!-- tocstop -->
 
 </details>
+
+### 2024, Week 08: [🤑 ISC Grants](https://github.com/imagineazhar/TidyTuesday/tree/main/2024/2024-02-24)
+
+![🤑 ISC Grants](https://github.com/imagineazhar/TidyTuesday/blob/main/2024/2024-02-24/Week08.png)
 
 ### 2024, Week 04: [🎓 UK Education](https://github.com/imagineazhar/TidyTuesday/tree/main/2024/week04)
 
